@@ -81,7 +81,7 @@ ES5提供String.prototype.charAt方法，返回字符串给定位置的字符。
 
 上面代码中，charAt方法返回的是UTF-16编码的第一个字节，实际上是无法显示的。
 
-ES7提供了字符串实例的at方法，可以识别Unicode编号大于0xFFFF的字符，返回正确的字符。
+ES6提供了字符串实例的at方法，可以识别Unicode编号大于0xFFFF的字符，返回正确的字符。
 
 ```javascript
 '𠮷'.at(0)
